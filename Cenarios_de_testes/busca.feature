@@ -10,7 +10,7 @@ Funcionalidade: Busca
 
     Cenário: Buscar por um produto existente
         Quando realizar uma busca por um produto existente
-        Então deverão retornados resultados na busca
+        Então deverão ser retornados resultados na busca
 
     Esquema do Cenário: Buscar por produtos 
         Quando buscar pelo produto "<produto>"

@@ -12,7 +12,7 @@ Funcionalidade: Cadastro de Usuário
     Cenário: Realizar o cadastro
         Quando informar o email
         E informar a senha
-        Então é exibida mensagem
+        Então deverá ser realizada uma validação
     
     Esquema do Cenário: Validar a realização do cadastro
         Quando realizar um cadastro de usuário
