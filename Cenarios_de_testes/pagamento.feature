@@ -14,7 +14,7 @@ Funcionalidade: Pagamento da compra
         Então a compra deverá ser finalizada com sucesso
 
     Cenário: Realizar pagamento por cheque bancário
-        Quando selecionar a opção de cheque bancário
+        Quando selecionar a opção de cheque 
         E confirmar o pedido
         Então a compra deverá ser finalizada com sucesso
 
