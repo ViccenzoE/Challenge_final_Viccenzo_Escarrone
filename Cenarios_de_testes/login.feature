@@ -17,10 +17,10 @@ Funcionalidade: Login
     Esquema do Cenário: Validar login
         Quando realizar o login com "<email>"
         E "<senha>"
-        Então é exibida mensagem "<mensagem>"
+        Então é exibido tipo "<tipo>"
 
     Exemplos:
-    | email              | senha    | msg                       |
-    | teste@teste.z      | senha123 | Authentication failed.    |
-    | teste@teste.com    | senha12  | Authentication failed.    |
-    | teste@teste.com    | senha123 | Authenticated.            |
+    | email              | senha    | tipo                          |
+    | teste@teste.z      | senha123 | Falha na validação            |
+    | teste@teste.com    | senha12  | Falha na validação            |
+    | teste@teste.com    | senha123 | Redirecionamento para a home  |
