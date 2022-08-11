@@ -1,0 +1,3 @@
+class AutomationResults < BasePage
+    
+end

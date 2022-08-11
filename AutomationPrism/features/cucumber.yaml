@@ -1,0 +1,5 @@
+default: -p prd
+
+# Envioronments
+hml: ENVIRONMENT="hml"
+prd: ENVIRONMENT="prd"
