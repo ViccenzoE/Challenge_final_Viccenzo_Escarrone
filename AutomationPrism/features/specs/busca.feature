@@ -17,9 +17,7 @@ Funcionalidade: Busca
         Então deverão ser retornados resultados na busca
 
     Exemplos:
-    |           produto            |
-    | Blusas e jaquetas masculinas |
-    | Blusas e jaquetas femininas  |
-    | Óculos de sol                |
-    | Bolsas                       |
-    | Top trends                   |
+    |   produto |
+    | Dress     |
+    | T-shirt   |
+    | Blouse    |
